@@ -19,7 +19,6 @@ function encodeQueryParams(o){
 const service = {
   cards({offset, types = [], foo = 'bar'} = {}){
     let page = Math.floor(offset / PAGE_SIZE) + 1
-
     let query = encodeQueryParams({types, page, pageSize:PAGE_SIZE})
 
     // return fetch('./cards-creatures.json')
