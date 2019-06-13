@@ -15,12 +15,3 @@ class Header extends React.Component {
 }
 
 export default Header
-
-// <div style={ styles.colorPicker }>
-//           <span style={ styles.all }/>
-//           <span style={ styles.black }/>
-//           <span style={ styles.red }/>
-//           <span style={ styles.white }/>
-//           <span style={ styles.blue }/>
-//           <span style={ styles.green }/>
-//         </div>
